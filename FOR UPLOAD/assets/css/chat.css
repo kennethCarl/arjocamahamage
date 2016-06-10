@@ -1,0 +1,39 @@
+﻿
+.chat-box{
+    width: 300px;
+    position:absolute;
+    cursor:pointer;
+}
+.chat-header{
+    width: 300px;
+    height:30px;
+    position:relative;
+    text-align:center;
+    padding-top: 5px;
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    background-color:#0099FF;
+    color: white;
+}
+.chat-body{
+    width: 300px;
+    position:relative;
+    padding-left:5px;
+    padding-right:5px;
+    background-color:#33CCCC;
+    overflow-y: auto;
+}
+.chat-footer{
+    width: 300px;
+    height: 70px;
+    position:relative;
+    border-top: 1px solid #3399CC;
+    background-color:#33CCCC;
+}
+textarea[name=chatfooter] {
+    resize: none;
+    width: 300px;
+    outline: none;
+    overflow-y: auto;
+    font-family: 'Times New Roman';
+}

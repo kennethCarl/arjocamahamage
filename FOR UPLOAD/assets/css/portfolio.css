@@ -1,0 +1,190 @@
+﻿.portfolio-header{
+    cursor: pointer;
+    position:fixed;
+    width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: rgb(52, 73, 94);
+    display:inline;
+    padding-top: 15px;
+    z-index:9999999;
+}
+.portfolio-header-left-label{
+    color: #C0C0C0;
+    font-family: inherit;
+}
+.portfolio-header-left-label:hover{
+    color: white;
+    font-family: inherit;
+}
+.portfolio-header-right-label{
+    color: white;
+    font-family: inherit;
+}
+.portfolio-container {
+    padding-top: 50px;
+    background-color: #E8E8E8;
+    font-family: inherit;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100%;
+    max-height: 100%;
+}
+.portfolio-item-container{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .05), 0 1px 4px 0 rgba(0, 0, 0, .08), 0 3px 1px -2px rgba(0, 0, 0, .2);
+    position:relative;
+    background: white;
+    border-radius: 2px;
+    display: flex;
+    flex: none;
+    margin: 6px auto;
+    min-height: 103px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+}
+.portfolio-detail-container{
+    display:inline-block;
+    width:inherit;
+}
+.portfolio-detail-appname{
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+.portfolio-detail-link{
+    font-style:italic;
+    padding-bottom: 5px;
+}
+.portfolio-detail-information{
+    font-style: normal;
+    padding-bottom: 5px;
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1023px)
+and (max-width : 1440px){
+    .portfolio-header-left-label{
+        width: 45%;
+        float:left;
+        margin-left: 20px;
+    }
+    .portfolio-header-right-label{
+        width: 50%;
+        float:left;
+    }
+    .portfolio-container{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .portfolio-detail-container{
+        font-size:small;
+    }
+}
+
+@media only screen
+and (min-width: 767px)
+and (max-width: 1024px){
+    .portfolio-header-left-label{
+        width: 45%;
+        float:left;
+        margin-left: 20px;
+    }
+    .portfolio-header-right-label{
+        width: 50%;
+        float:left;
+    }
+    .portfolio-container{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .portfolio-detail-container{
+        font-size:small;
+    }
+}
+/* End of Desktops and laptops ----------- */
+
+/* Tablet */
+@media only screen
+and (min-width: 424px)
+and (max-width: 768px){
+     .portfolio-header-left-label{
+        width: 45%;
+        float:left;
+        margin-left: 20px;
+    }
+    .portfolio-header-right-label{
+        width: 50%;
+        float:left;
+    }
+    .portfolio-container{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .portfolio-detail-container{
+        font-size:smaller;
+    }
+}
+/* End of Tablet */
+
+/* Mobile Large */
+@media only screen
+and (min-width: 374px)
+and (max-width: 425px){
+    .portfolio-header-left-label{
+        display:none;
+    }
+    .portfolio-header-right-label{
+        width: 100%;
+        text-align:center;
+    }
+    .portfolio-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .portfolio-detail-container{
+        font-size:x-small;
+    }
+}
+/* End of Mobile Large */
+
+/* Mobile Medium*/
+@media only screen
+and (min-width: 319px)
+and (max-width: 375px){
+    .portfolio-header-left-label{
+        display:none;
+    }
+    .portfolio-header-right-label{
+       width: 100%;
+       text-align:center;
+    }
+    .portfolio-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .portfolio-detail-container{
+        font-size:x-small;
+    }
+}
+/* End of Mobile Medium*/
+
+/* Mobile Small*/
+@media only screen
+and (min-width: 1px)
+and (max-width: 320px){
+    .portfolio-header-left-label{
+        display:none;
+    }
+    .portfolio-header-right-label{
+        width: 100%;
+        text-align:center;
+    }
+    .portfolio-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .portfolio-detail-container{
+        font-size:x-small;
+    }
+}
+/* End of Mobile Medium*/
+

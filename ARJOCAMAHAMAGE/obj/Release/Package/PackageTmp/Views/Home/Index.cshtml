@@ -1,0 +1,62 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ARJOCAMAHAMAGE" content="">
+    <meta name="Kenneth Carl Nacua Ybanez" content="">
+
+    <title>ARJOCAMAHAMAGE - Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Landing Page CSS -->
+    <link href="~/assets/css/landing-page.css" rel="stylesheet">
+    <!-- Chat CSS -->
+    <link href="~/assets/css/chat.css" rel="stylesheet" />
+    <!-- Portfolio CSS -->
+    <link href="~/assets/css/portfolio.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="~/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="~/plugins/bootstrap/css/fonts.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body ng-app="arjocamahamageApp">
+    <div ui-view></div>
+    <div id="chat" class="chat-box" ng-controller="ChatController" ng-hide="true">
+        <div id="chatHeader" class="chat-header" ng-click="show()">Chat With Us</div>
+        <div ng-hide="hide">
+            <div id="chatBody" class="chat-body">
+            </div>
+            <div id="chatFooter" class="chat-footer">
+                <textarea name="chatfooter" rows="3" placeholder="Type your message here....."></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- jQuery -->
+<script src="~/plugins/jquery/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="~/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- AngularJS -->
+<script src="~/plugins/angular/angular.min.js"></script>
+<script src="~/plugins/angular/angular-ui-router.min.js"></script>
+<script src="~/plugins/angular/angular-localForage.js"></script>
+<!-- Custom JS -->
+<script src="~/assets/js/core/core.js"></script>
+<script src="~/assets/js/controllers/LandingPageController.js"></script>
+<script src="~/assets/js/controllers/PortfolioController.js"></script>
+<script src="~/assets/js/controllers/ChatController.js"></script>

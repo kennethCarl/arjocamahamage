@@ -1,0 +1,30 @@
+﻿<div id="portfolioHeader" class="portfolio-header">
+    <div class="portfolio-header-left-label" ng-click="redirect('home')">ARJOCAMAHAMAGE</div>
+    <div class="portfolio-header-right-label">
+        PORTFOLIO
+    </div>
+</div>
+<div class="portfolio-container">
+    <div class="portfolio-item-container" ng-repeat="application in apps">
+        <div class="portfolio-detail-container">
+            <div class="portfolio-detail-appname">
+                <strong>Application Name:</strong>&nbsp;{{ application.Name }}
+            </div>
+            <div class="portfolio-detail-link">
+                <strong>Link:</strong>
+                <div style="display:inline-block;" ng-show="application.Type == 'Web'">
+                        <a href="{{application.Link}}" target="_blank">&nbsp;{{application.Link}}</a>
+                </div>
+                <div style="display:inline-block; cursor:pointer;" ng-show="application.Type == 'Mobile'">
+                    <a ng-click="downloadApp('IPSubnetting')">&nbsp;Click here to download</a>
+                </div>
+            </div>
+            <div class="portfolio-detail-information">
+                <strong>Details:</strong>&nbsp;{{application.Details}}
+            </div>
+            <div class="portfolio-detail-information">
+                <strong>Technology Used:</strong>&nbsp;{{application.TechnologyUsed}}
+            </div>
+        </div>
+    </div>
+</div>
