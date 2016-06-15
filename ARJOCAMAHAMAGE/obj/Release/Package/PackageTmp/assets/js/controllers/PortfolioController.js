@@ -17,6 +17,13 @@
             Details: "A mobile application that will help you subnet a class A, B and C ip address.",
             Type: "Mobile",
             TechnologyUsed: "Javascript, Ionic, Cordova, AngularJS"
+        },
+        {
+            Name: "Ybañez-Nacua Apartment",
+            Link: "http://www.nacuaybanez.somee.com/",
+            Details: "A web application that advertise an apartment owned by Mr. & Mrs. Edgardo Amistad Ybañez",
+            Type: "Web",
+            TechnologyUsed: "Javascript, AngularJS, Bootstrap, CSS, HTML, ASP.Net MVC, Web API, Entity Framework, MSSQL"
         }
     ]
 

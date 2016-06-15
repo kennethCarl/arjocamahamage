@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="arjocamahamage" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Carl\\Projects\\Personal\\ARJOCAMAHAMAGE\\ARJOCAMAHAMAGE\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Carl\\Projects\\Personal\\ARJOCAMAHAMAGE\\ARJOCAMAHAMAGE\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Carl\\Projects\\Personal\\ARJOCAMAHAMAGEV1\\ARJOCAMAHAMAGE\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Carl\\Projects\\Personal\\ARJOCAMAHAMAGEV1\\ARJOCAMAHAMAGE\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
 </parameters>

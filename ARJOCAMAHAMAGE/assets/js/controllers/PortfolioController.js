@@ -20,7 +20,7 @@
         },
         {
             Name: "Ybañez-Nacua Apartment",
-            Link: "http://www.resumegenerator.somee.com/",
+            Link: "http://www.nacuaybanez.somee.com/",
             Details: "A web application that advertise an apartment owned by Mr. & Mrs. Edgardo Amistad Ybañez",
             Type: "Web",
             TechnologyUsed: "Javascript, AngularJS, Bootstrap, CSS, HTML, ASP.Net MVC, Web API, Entity Framework, MSSQL"
